@@ -10,7 +10,7 @@
 ![chapters](https://img.shields.io/badge/chapters-44-6d1220)
 ![parts](https://img.shields.io/badge/parts-14-6d1220)
 ![words](https://img.shields.io/badge/words-~32%2C000-6d1220)
-![format](https://img.shields.io/badge/format-PDF%20%7C%20Markdown-6d1220)
+![format](https://img.shields.io/badge/format-PDF-6d1220)
 ![license](https://img.shields.io/badge/license-CC%20BY%204.0-6d1220)
 
 </div>
@@ -32,27 +32,27 @@ Anyone who wants to understand what Windows actually does in the background: DFI
 ## Read it
 
 - **[Windows Never Forgets.pdf](<Windows Never Forgets.pdf>)** — the full typeset book, cover included.
-- **[book/](book)** — the same text as Markdown, split by part, for reading straight on GitHub.
+The book is currently available as a PDF. The contents below describe its sections; separate Markdown chapters are not included in this repository.
 
 ## Contents
 
 | Part | Chapters |
 |---|---|
-| [Front matter](book/00-front-matter.md) | Preface and a short glossary of recurring terms |
-| [Part one: the watchers](book/part-01-the-watchers.md) | 1. The telemetry and diagnostics machinery &middot; 2. Identity, location, and the cloud tether &middot; 3. Network, security, and shell services |
-| [Part two: what you ran](book/part-02-what-you-ran.md) | 4. Prefetch, ShimCache, and Amcache &middot; 5. SRUM &middot; 6. BAM and DAM &middot; 7. Windows Recall |
-| [Part three: what you clicked](book/part-03-what-you-clicked.md) | 8. UserAssist &middot; 9. The MRU universe &middot; 10. Shellbags &middot; 11. LNK files and jump lists |
-| [Part four: the file system itself](book/part-04-the-file-system-itself.md) | 12. The master file table &middot; 13. $LogFile, $UsnJrnl, and $Recycle.Bin |
-| [Part five: what the system saw](book/part-05-what-the-system-saw.md) | 14. Event logs &middot; 15. WER, minidumps, and kernel dumps &middot; 16. PSR, boot/shutdown, hibernation, and the page file |
-| [Part six: the shell remembers](book/part-06-the-shell-remembers.md) | 17. Thumbnails and the search index &middot; 18. Timeline &middot; 19. Edge's local footprint &middot; 20. Notifications, Cortana, IE cache, maps, clipboard, sticky notes |
-| [Part seven: under the hood](book/part-07-under-the-hood.md) | 21. Kernel process/thread/image hooks &middot; 22. Registry, object, and minifilter callbacks &middot; 23. ETW explained &middot; 24. Autologgers and providers |
-| [Part eight: the scheduler's secrets](book/part-08-the-schedulers-secrets.md) | 25. The scheduled tasks Windows runs without asking &middot; 26. How the Task Scheduler keeps score |
-| [Part nine: the network and the cloud](book/part-09-the-network-and-the-cloud.md) | 27–32. The telemetry pipeline, Windows Update, OneDrive and CDP, push/SmartScreen/MAPS, Wi-Fi and credentials, Xbox/Edge/Store, and the full endpoint list |
-| [Part ten: persistence and the early boot](book/part-10-persistence-and-the-early-boot.md) | 33. BITS, BootExecute, MountedDevices, autostart locations, VSS &middot; 34. WMI persistence |
-| [Part eleven: scripts, audits, and what gets logged](book/part-11-scripts-audits-and-what-gets-logged.md) | 35. PowerShell logging &middot; 36. DNS cache, security auditing, AppLocker |
-| [Part twelve: credentials, identity, and Defender](book/part-12-credentials-identity-and-defender.md) | 37. Windows Hello and DPAPI &middot; 38. Defender, certificates, and the firewall log |
-| [Part thirteen: the last mile](book/part-13-the-last-mile.md) | 39. Installer footprints, services registry, Group Policy &middot; 40. The EVTX format itself |
-| [Part fourteen: making sense of it all](book/part-14-making-sense-of-it-all.md) | 41. Tools of the trade &middot; 42. Timestamp formats &middot; 43. Anti-forensics &middot; 44. The privacy control registry |
+| Front matter | Preface and a short glossary of recurring terms |
+| Part one: the watchers | 1. The telemetry and diagnostics machinery &middot; 2. Identity, location, and the cloud tether &middot; 3. Network, security, and shell services |
+| Part two: what you ran | 4. Prefetch, ShimCache, and Amcache &middot; 5. SRUM &middot; 6. BAM and DAM &middot; 7. Windows Recall |
+| Part three: what you clicked | 8. UserAssist &middot; 9. The MRU universe &middot; 10. Shellbags &middot; 11. LNK files and jump lists |
+| Part four: the file system itself | 12. The master file table &middot; 13. $LogFile, $UsnJrnl, and $Recycle.Bin |
+| Part five: what the system saw | 14. Event logs &middot; 15. WER, minidumps, and kernel dumps &middot; 16. PSR, boot/shutdown, hibernation, and the page file |
+| Part six: the shell remembers | 17. Thumbnails and the search index &middot; 18. Timeline &middot; 19. Edge's local footprint &middot; 20. Notifications, Cortana, IE cache, maps, clipboard, sticky notes |
+| Part seven: under the hood | 21. Kernel process/thread/image hooks &middot; 22. Registry, object, and minifilter callbacks &middot; 23. ETW explained &middot; 24. Autologgers and providers |
+| Part eight: the scheduler's secrets | 25. The scheduled tasks Windows runs without asking &middot; 26. How the Task Scheduler keeps score |
+| Part nine: the network and the cloud | 27–32. The telemetry pipeline, Windows Update, OneDrive and CDP, push/SmartScreen/MAPS, Wi-Fi and credentials, Xbox/Edge/Store, and the full endpoint list |
+| Part ten: persistence and the early boot | 33. BITS, BootExecute, MountedDevices, autostart locations, VSS &middot; 34. WMI persistence |
+| Part eleven: scripts, audits, and what gets logged | 35. PowerShell logging &middot; 36. DNS cache, security auditing, AppLocker |
+| Part twelve: credentials, identity, and Defender | 37. Windows Hello and DPAPI &middot; 38. Defender, certificates, and the firewall log |
+| Part thirteen: the last mile | 39. Installer footprints, services registry, Group Policy &middot; 40. The EVTX format itself |
+| Part fourteen: making sense of it all | 41. Tools of the trade &middot; 42. Timestamp formats &middot; 43. Anti-forensics &middot; 44. The privacy control registry |
 
 ## Scope
 
@@ -60,7 +60,7 @@ Windows 10 (roughly 20H2 through 22H2), Windows 11 (21H2 through 24H2, including
 
 ## License
 
-Text and cover art are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): share it, adapt it, translate it, just credit the author. If you'd rather use a different license for this repository, swap out `LICENSE`; nothing about the structure here depends on it.
+Text and cover art are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): share it, adapt it, translate it, just credit the author.
 
 ## Author
 
