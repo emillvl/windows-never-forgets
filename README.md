@@ -19,19 +19,20 @@
 
 ## What this is
 
-Every modern version of Windows keeps a diary. Nobody sits down and writes it on purpose. It builds up on its own, a byproduct of hundreds of small subsystems doing their jobs: a service checking whether the last update installed cleanly, a shell feature remembering your recent files, a diagnostics pipeline reporting which drivers are crashing. None of it was designed as surveillance. Almost all of it was designed to make the operating system faster, more reliable, or more convenient. The side effect, added up across the whole system, is a machine that remembers far more than most people realize.
+Windows records activity as its services and applications run. Updates leave diagnostic records, the shell remembers recent files, and crash reporting records driver failures. These features support reliability, performance, and convenience, but their records can also reveal how someone used a computer.
 
-This book is a full tour of that diary: the background services that never sleep, the registry keys and cache files that log what you clicked, the kernel-level hooks and ETW tracing that make it all possible, and the network endpoints everything eventually reports to. It covers telemetry, digital forensics, and Windows internals as one connected subject, because on Windows they turn out to be the same territory viewed from different angles.
+This book examines those records alongside the systems that create them: background services, registry keys, caches, kernel hooks, ETW tracing, and network reporting endpoints. It connects Windows internals with telemetry and digital forensics.
 
-It does not assume prior field expertise, and it does not round anything off. Every registry key, file path, event ID, and binary structure covered in the source research is explained in plain language, in full, in order.
+You do not need prior experience in the field. The book explains the registry keys, file paths, event IDs, and binary structures covered in its source research in plain language.
 
 ## Who it's for
 
-Anyone who wants to understand what Windows actually does in the background: DFIR practitioners and incident responders, security researchers, sysadmins hardening a fleet, developers building on Windows internals, or anyone curious what their own PC has been quietly writing down.
+The book is for DFIR practitioners, incident responders, security researchers, system administrators, and developers working with Windows internals. It is also for readers who want to understand what their own PC records.
 
 ## Read it
 
-- **[Windows Never Forgets.pdf](<Windows Never Forgets.pdf>)** — the full typeset book, cover included.
+- **[Windows Never Forgets.pdf](<Windows Never Forgets.pdf>)**: the full typeset book, cover included.
+
 The book is currently available as a PDF. The contents below describe its sections; separate Markdown chapters are not included in this repository.
 
 ## Contents
@@ -47,7 +48,7 @@ The book is currently available as a PDF. The contents below describe its sectio
 | Part six: the shell remembers | 17. Thumbnails and the search index &middot; 18. Timeline &middot; 19. Edge's local footprint &middot; 20. Notifications, Cortana, IE cache, maps, clipboard, sticky notes |
 | Part seven: under the hood | 21. Kernel process/thread/image hooks &middot; 22. Registry, object, and minifilter callbacks &middot; 23. ETW explained &middot; 24. Autologgers and providers |
 | Part eight: the scheduler's secrets | 25. The scheduled tasks Windows runs without asking &middot; 26. How the Task Scheduler keeps score |
-| Part nine: the network and the cloud | 27–32. The telemetry pipeline, Windows Update, OneDrive and CDP, push/SmartScreen/MAPS, Wi-Fi and credentials, Xbox/Edge/Store, and the full endpoint list |
+| Part nine: the network and the cloud | 27-32. The telemetry pipeline, Windows Update, OneDrive and CDP, push/SmartScreen/MAPS, Wi-Fi and credentials, Xbox/Edge/Store, and the full endpoint list |
 | Part ten: persistence and the early boot | 33. BITS, BootExecute, MountedDevices, autostart locations, VSS &middot; 34. WMI persistence |
 | Part eleven: scripts, audits, and what gets logged | 35. PowerShell logging &middot; 36. DNS cache, security auditing, AppLocker |
 | Part twelve: credentials, identity, and Defender | 37. Windows Hello and DPAPI &middot; 38. Defender, certificates, and the firewall log |
