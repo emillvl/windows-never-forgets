@@ -6,7 +6,7 @@
 
 ### A field guide to what your PC remembers, and how forensic investigators read it back
 
-![pages](https://img.shields.io/badge/pages-163-6d1220)
+![pages](https://img.shields.io/badge/pages-176-6d1220)
 ![chapters](https://img.shields.io/badge/chapters-44-6d1220)
 ![parts](https://img.shields.io/badge/parts-14-6d1220)
 ![words](https://img.shields.io/badge/words-~32%2C000-6d1220)
@@ -33,7 +33,9 @@ The book is for DFIR practitioners, incident responders, security researchers, s
 
 - **[Windows Never Forgets.pdf](<Windows Never Forgets.pdf>)**: the full typeset book, cover included.
 
-The book is currently available as a PDF. The contents below describe its sections; separate Markdown chapters are not included in this repository.
+The corrected publication is available as a free PDF, with 175 technical references. [Corrections](CORRECTIONS.md) and [references](REFERENCES.md) are also available separately. The Windows development cutoff is June 2026. The contents below describe its sections; separate Markdown chapters are not included in this repository.
+
+The book is also free on [Leanpub](https://leanpub.com/windowsneverforgets), and the archived publication is on [Zenodo](https://doi.org/10.5281/zenodo.23396019). Both refer to the same publication. Use DOI **10.5281/zenodo.23396019** to cite it.
 
 ## Contents
 

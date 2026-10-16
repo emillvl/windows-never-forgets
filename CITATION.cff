@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the book using its canonical DOI."
+type: book
+title: "Windows Never Forgets: A Field Guide to What Your PC Remembers, and How Forensic Investigators Read It Back"
+authors:
+  - family-names: "Valiyev"
+    given-names: "Emil"
+version: "Corrected publication, October 2026"
+date-released: 2026-10-15
+doi: 10.5281/zenodo.23396019
+license: CC-BY-4.0
+url: "https://github.com/emillvl/windows-never-forgets"
